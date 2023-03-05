@@ -8,6 +8,18 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
+    $firstName = "Janusz";
+    $lastName = "Kowalski";
+    echo "Imie i naziwsko $firstName $lastName </br>";
 
+    echo <<< DATA
+    </br>
+    Imie: $firstName</br>
+    Nazwisko: $lastName</br>
+DATA;
+
+
+    ?>
 </body>
 </html>
