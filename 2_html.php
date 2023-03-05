@@ -27,7 +27,12 @@
     </ul>
 LIST;
 
-
     ?>
+    <h4>Zawartość skryptu</h4>
+    <?php
+        //include, require, include once, recuire once
+        include_once "./scripts/script.php"
+    ?>
+    <h4>Po wyświetleniu skryptu </h4>
 </body>
 </html>
