@@ -8,20 +8,25 @@
     <title>Document</title>
 </head>
 <body>
+    <h4>Lista </h4>
+    <ul>
+        <li>Poznań</li>
+        <li>Września</li>
+        <li>Konin</li>
+        <li>Drawski Młyn</li>
+        <li>Gniezno</li>
+    </ul>
     <?php
-    $firstName = "Janusz";
-    $lastName = "Kowalski";
-    echo "Imie i naziwsko $firstName $lastName </br>";
+    $city = "Jarocin";
+    echo <<< LIST
+    <ul>
+        <li>Poznań</li>
+        <li>Września</li>
+        <li>Konin</li>
+        <li>$city</li>
+    </ul>
+LIST;
 
-    $data = <<< DATA
-    </br>
-    Imie: $firstName</br>
-    Nazwisko: $lastName</br>
-DATA;
-    echo $data;
-
-    $bin = 010100;
-    echo $bin;
 
     ?>
 </body>
