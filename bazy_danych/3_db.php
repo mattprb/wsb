@@ -11,8 +11,11 @@
 <body>
 <h4> Użytkownicy</h4>
 <?php
-//
-
+if (isset($_GET["deleteUser"])){
+    if ($_GET["deleteUser"] == 0){
+        echo "<h4>Nie udało się usunąć rekordu!</h4>";
+    }
+}
 ?>
 <table>
     <tr>
@@ -33,7 +36,7 @@
         LEFT JOIN countries ON countries.`id` = states.`country_id`;";
     $result = $conn->query($sql);
 
-    if($result->num_rows == 0) {
+    if ($result->num_rows == 0){
         echo "<tr><td colspan='6'>Brak rekordów do wyświetlenia</td></tr>";
     }else {
         while ($user = $result->fetch_assoc()) { //heardog
