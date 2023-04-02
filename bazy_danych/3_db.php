@@ -10,6 +10,10 @@
 </head>
 <body>
 <h4> Użytkownicy</h4>
+<?php
+//
+
+?>
 <table>
     <tr>
         <th>Imie</th>
@@ -28,8 +32,12 @@
         LEFT JOIN states ON cities.`state_id` = states.`id` 
         LEFT JOIN countries ON countries.`id` = states.`country_id`;";
     $result = $conn->query($sql);
-    while($user = $result->fetch_assoc()){ //heardog
-        echo <<< TABLEUSERS
+
+    if($result->num_rows == 0) {
+        echo "<tr><td colspan='6'>Brak rekordów do wyświetlenia</td></tr>";
+    }else {
+        while ($user = $result->fetch_assoc()) { //heardog
+            echo <<< TABLEUSERS
             <tr>
                 <td>$user[firstName]</td>
                 <td>$user[lastName]</td>
@@ -40,8 +48,11 @@
                 <td><a href="../scripts/delete_user.php?userIdDelete=$user[id]">Usuń</a></td>
             </tr>
 TABLEUSERS;
-    }
-    echo "</table>";
+        }}
+        echo "</table>";
+
     ?>
 </body>
+
+
 </html>
