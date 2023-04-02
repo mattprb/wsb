@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b21a14f-2dde-4cb6-854e-d5c2beaa8f68" name="Changes" comment="change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bazy_danych/3_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/bazy_danych/3_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazy_danych/4_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/bazy_danych/4_db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/delete_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/delete_user.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       <workItem from="1679209986933" duration="6719000" />
       <workItem from="1679218873615" duration="959000" />
       <workItem from="1680415511291" duration="1134000" />
-      <workItem from="1680416854120" duration="5571000" />
+      <workItem from="1680416854120" duration="6645000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1679211862597</created>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680421475917</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="change">
+      <created>1680422491160</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680422491160</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

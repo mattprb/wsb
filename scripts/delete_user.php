@@ -11,9 +11,9 @@ if (!empty($_GET["userIdDelete"])){
     //echo $conn->affected_rows;
 
     if ($conn->affected_rows == 0){
-        header("location: ../bazy_danych/3_db.php?deleteUser=0");
+        header("location: ../bazy_danych/4_db.php?deleteUser=0");
     }else{
         //echo "ok";
-        header("location: ../bazy_danych/3_db.php?deleteUser=$_GET[userIdDelete]");
+        header("location: ../bazy_danych/4_db.php?deleteUser=$_GET[userIdDelete]");
     }
 }
