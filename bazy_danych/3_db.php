@@ -22,7 +22,7 @@
 
     <?php
     require_once "../scripts/connect2.php";
-    $sql = "SELECT users.`firstName`, users.`lastName`, users.`birthday`, cities.`city`, states.`state`, countries.`country_name`
+    $sql = "SELECT users.`id`, users.`firstName`, users.`lastName`, users.`birthday`, cities.`city`, states.`state`, countries.`country_name`
     FROM users 
         LEFT JOIN cities ON users.`city_id` = cities.`id` 
         LEFT JOIN states ON cities.`state_id` = states.`id` 
@@ -37,7 +37,7 @@
                 <td>$user[city]</td>
                 <td>$user[state]</td>
                 <td>$user[country_name]</td>
-                <td><a href="../scripts/delete_user.php">Usuń</td>
+                <td><a href="../scripts/delete_user.php?userIdDelete=$user[id]">Usuń</a></td>
             </tr>
 TABLEUSERS;
     }

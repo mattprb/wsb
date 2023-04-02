@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b21a14f-2dde-4cb6-854e-d5c2beaa8f68" name="Changes" comment="change">
-      <change afterPath="$PROJECT_DIR$/bazy_danych/3_db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/delete_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazy_danych/3_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/bazy_danych/3_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/delete_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/delete_user.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <workItem from="1679209986933" duration="6719000" />
       <workItem from="1679218873615" duration="959000" />
       <workItem from="1680415511291" duration="1134000" />
-      <workItem from="1680416854120" duration="288000" />
+      <workItem from="1680416854120" duration="1263000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1679211862597</created>
@@ -111,11 +111,29 @@
       <option name="project" value="LOCAL" />
       <updated>1679219732502</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change">
+      <created>1680417166372</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680417166372</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change" />
